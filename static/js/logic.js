@@ -1,6 +1,8 @@
 // Douglas Drake - Cohort 3 - Homework 17
 
-const API_KEY = "YOUR API KEY HERE";
+var API_KEY = "YOUR API KEY HERE";
+
+API_KEY = window.prompt("Enter your API Key", "");
 
 // Store our API endpoint inside QueryUrls
 var earthquakeQueryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
