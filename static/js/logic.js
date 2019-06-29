@@ -1,3 +1,7 @@
+// Douglas Drake - Cohort 3 - Homework 17
+
+const API_KEY = "YOUR API KEY HERE";
+
 // Store our API endpoint inside QueryUrls
 var earthquakeQueryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
@@ -126,7 +130,7 @@ function createMap(earthquakes, plates) {
     center: [
       37.09, -95.71
     ],
-    zoom: 5,
+    zoom: 3,
     layers: [satelliteMap, earthquakes, plates]
   });
 
