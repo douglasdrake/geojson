@@ -2,7 +2,7 @@
 
 var API_KEY = "YOUR API KEY HERE";
 
-API_KEY = window.prompt("Enter your API Key", "");
+API_KEY = window.prompt("Enter your mapbox API Key", "");
 
 // Store our API endpoint inside QueryUrls
 var earthquakeQueryUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
