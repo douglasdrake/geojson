@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<!-- Douglas Drake = Cohort 3 - Homework 17  -->
+<!-- Douglas Drake 
+Using Leaflet and D3 V4 to produce a map of earthquakes over the last seven days.  -->
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>USGS: Earthquakes From The Last 7 Days</title>
 
   <!-- Leaflet CSS & JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
-  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
-  crossorigin=""/>
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+  <!--  Leaflet providers to use free tile layers.-->
+  <script src="js/leaflet-providers.js"></script>
 
   <!--D3 cdn-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
@@ -25,9 +29,9 @@
   <div id="map"></div>
 
   <!-- API key -->
-
   <!-- <script type="text/javascript" src="static/js/config.js"></script> -->
   <!-- Our JS -->
   <script type="text/javascript" src="static/js/logic.js"></script>
 </body>
+
 </html>
