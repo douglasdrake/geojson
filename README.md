@@ -8,9 +8,9 @@ The
 2.  Leaflet is used to map the earthquakes and tectonic plate boundaries.
     -  Tile layers are supplied by ESRI.  If you are using a tile provider that requires an API key, such as mapbox, the code can be modified to 
 supply the api key in one of three ways:
-        a.  Supply the API key in the `config.js` file and uncomment the line loading this file in `index.html`.
-        b.  Uncomment the line in `logic.js` that gives the API key.
-        c.  Uncomment the line in `logic.js` that prompts the user for an API key through a dialog.
+        *  Supply the API key in the `config.js` file and uncomment the line loading this file in `index.html`.
+        *  Uncomment the line in `logic.js` that gives the API key.
+        *  Uncomment the line in `logic.js` that prompts the user for an API key through a dialog.
     - Earthquakes are represented by circles with size proportional to the magnitude of the earthquake and color also 
     - Tectonic plates are represented as lines.
     - A legend is supplied.
